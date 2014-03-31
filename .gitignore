@@ -1,0 +1,5 @@
+/vendor/
+/nbproject/
+/composer.lock
+/_ide_helper.php
+/public/packages/

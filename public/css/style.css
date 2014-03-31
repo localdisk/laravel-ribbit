@@ -1,0 +1,41 @@
+/* 
+    Created on : 2014/01/03, 22:25:14
+    Author     : localdisk
+*/
+
+.navbar-default {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 -5px 0 rgba(0, 0, 0, 0.03);
+}
+
+.navbar-default .navbar-brand {
+    color: #aaa;
+}
+.navbar-default .navbar-brand:hover {
+    color: #f4645f;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #aaa;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #f4645f;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>a:focus {
+    color: #f4645f;
+    background-color: #fff;
+}
+.page-title {
+    color: #555;
+}
+.error {
+    color: red;
+}
+.reset {
+    margin: 0;
+    padding: 0;
+}
