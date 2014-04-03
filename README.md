@@ -6,6 +6,39 @@
 
 よかったら、あなたの学習に役立ててください。
 
+### Usage
+
+* インストール
+
+```
+$ git clone https://github.com/localdisk/laravel-ribbit.git
+$ cd laravel-ribbit
+$ composer install
+```
+
+for PhpStorm
+
+```
+$ php artisan ide-helper:generate
+```
+
+* DBマイグレーション
+
+```
+$ php artisan migrate
+$ php artisan db:seed
+```
+
+* ビルトインサーバ起動
+
+```
+$ php artisan serve
+```
+
+* ブラウザでアクセス
+
+http://localhost:8000/
+
 ### ライセンス
 
 MITライセンス
