@@ -24,11 +24,9 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('40-OC0036-5'),
-        ));
-
+$env = $app->detectEnvironment(function() {
+    return 'local';
+});
 /*
 |--------------------------------------------------------------------------
 | パスの結合
