@@ -24,7 +24,9 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"php artisan optimize"
+			"php artisan optimize",
+            "php artisan ide-helper:generate",
+            "php artisan debugbar:publish"
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
