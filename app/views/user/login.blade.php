@@ -20,6 +20,11 @@
                         <?= Form::password('password', ['id' => 'password', 'class' => 'form-control']) ?>
                         <div class="error"><?= e($errors->first('password')) ?></div>
                     </div>
+                    <div class="checkbox">
+                        <label>
+                            <?= Form::checkbox('remember') ?> Remember Me?
+                        </label>
+                    </div>
                     <input type="submit" class="btn btn-primary" value="Submit" />
                     <?= Form::close() ?>
                 </div>

@@ -66,7 +66,7 @@ class UserController extends BaseController
     public function postLogin()
     {
         $credentials = Input::only([ 'username', 'password']);
-        if (Auth::attempt($credentials)) {
+        if (Auth::attempt($credentials, Input::only('remember'))) {
             return Redirect::intended('/');
         }
         Session::flash('error', 'ログインに失敗しました。');
