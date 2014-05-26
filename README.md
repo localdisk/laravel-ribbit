@@ -1,14 +1,14 @@
 ## Laravel Ribbit
 
-‚±‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÍA[Tuts+](https://tutsplus.com/)‚ÅŒöŠJ‚³‚ê‚Ä‚¢‚é [Ribbit in PHP](http://code.tutsplus.com/tutorials/building-ribbit-in-php--net-28802)‚ğ [Laravel](http://laravel.com) ‚ÅÀ‘•‚µ‚½‚à‚Ì‚Å‚·B
+ã“ã®ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã¯ã€[Tuts+](https://tutsplus.com/) ã§å…¬é–‹ã•ã‚Œã¦ã„ã‚‹ [Ribbit in PHP](http://code.tutsplus.com/tutorials/building-ribbit-in-php--net-28802) ã‚’ [Laravel](http://laravel.com) ã§å®Ÿè£…ã—ãŸã‚‚ã®ã§ã™ã€‚
 
-‚Í‚¶‚ß‚Ä [Laravel](http://laravel.com)‚ÉG‚ê‚é‚©‚½‚É’²“x‚¢‚¢ƒ`ƒ…[ƒgƒŠƒAƒ‹‚ğì‚ê‚È‚¢‚©A‚Æ‚¢‚¤——R‚Åì‚è‚Ü‚µ‚½B
+ã¯ã˜ã‚ã¦ [Laravel](http://laravel.com) ã«è§¦ã‚Œã‚‹ã‹ãŸã«èª¿åº¦ã„ã„ãƒãƒ¥ãƒ¼ãƒˆãƒªã‚¢ãƒ«ã‚’ä½œã‚Œãªã„ã‹ã€ã¨ã„ã†ç†ç”±ã§ä½œã‚Šã¾ã—ãŸã€‚
 
-‚æ‚©‚Á‚½‚çA‚ ‚È‚½‚ÌŠwK‚É–ğ—§‚Ä‚Ä‚­‚¾‚³‚¢B
+ã‚ˆã‹ã£ãŸã‚‰ã€ã‚ãªãŸã®å­¦ç¿’ã«å½¹ç«‹ã¦ã¦ãã ã•ã„ã€‚
 
 ### Usage
 
-* ƒCƒ“ƒXƒg[ƒ‹
+* ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 ```
 $ git clone https://github.com/localdisk/laravel-ribbit.git
@@ -16,29 +16,22 @@ $ cd laravel-ribbit
 $ composer install
 ```
 
-for PhpStorm
+* DBãƒã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³
 
 ```
-$ php artisan ide-helper:generate
+$ php artisan migrate:install
 ```
 
-* DBƒ}ƒCƒOƒŒ[ƒVƒ‡ƒ“
-
-```
-$ php artisan migrate
-$ php artisan db:seed
-```
-
-* ƒrƒ‹ƒgƒCƒ“ƒT[ƒo‹N“®
+* ãƒ“ãƒ«ãƒˆã‚¤ãƒ³ã‚µãƒ¼ãƒèµ·å‹•
 
 ```
 $ php artisan serve
 ```
 
-* ƒuƒ‰ƒEƒU‚ÅƒAƒNƒZƒX
+* ãƒ–ãƒ©ã‚¦ã‚¶ã§ã‚¢ã‚¯ã‚»ã‚¹
 
 http://localhost:8000/
 
-### ƒ‰ƒCƒZƒ“ƒX
+### ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
 
-MITƒ‰ƒCƒZƒ“ƒX
+MITãƒ©ã‚¤ã‚»ãƒ³ã‚¹
