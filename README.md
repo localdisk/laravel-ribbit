@@ -20,6 +20,7 @@ $ composer install
 
 ```
 $ php artisan migrate:install
+$ php artisan migrate
 ```
 
 * ビルトインサーバ起動
